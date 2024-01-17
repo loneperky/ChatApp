@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  width: 100vh;
+}
+:root{
+  --HEADERCOLOR:BLUE;
+  --EMPTYSPACE:linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+  --BASICWHITE:rgb(255,255,255);
+}
+.empty-cover{
+  width: 20rem;
+  height: 45rem;
+  background-image: var(--EMPTYSPACE);
+  border-radius: 0 0 28rem  0;
+  margin-bottom: 10rem;
+}
+.phone-overview{
+  width: 18rem;
+  height: 37rem;
+  box-shadow: 5px 5px 20px hsl(264, 100%, 80%);
+  background-color: hsl(240, 24%, 96%);
+  border-radius: 1.7rem;
+  border: 1rem solid whitesmoke;
+  border-color: var(--BASICWHITE);
+  margin-top: 2rem;
+  position: absolute;
+  margin-left: -4rem;
+}
+.empty-phone{
+  display: flex;
+}
+.empty-head{
+  background-color: var(--BASICWHITE);
+  height: 1.2rem;
+  width: 10rem;
+  margin-left: 3rem;
+  border-radius: 0px 0  9px 9px;
+  position: relative;
+}
+.phone-head{
+  width: 100%;
+  height: 5rem;
+  border-radius: 1.7rem 1.7rem  0 0 ;
+  background-image: var(--EMPTYSPACE);
+}
+.lesth{
+  position: absolute;
+  margin-top: 2.5rem;
+  margin-left: 3px;
+  color: var(--BASICWHITE);
+  
+}
+.mr-man{
+  width: 35px;
+  margin-left: 17px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 2px solid var(--BASICWHITE);
+}
+.img-talk{
+  display: flex;
+  margin-top: -0.8rem;
+  margin-left: 10px;
+}
+.name-id{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.fname{
+  color: rgb(245, 245, 245);
+}
+.job-avail{
+  color: rgb(250, 248, 248);
+  font-size: 10px;
+  margin-top: -5px;
+}
+.first-para{
+  margin-top: 25px;
+  background-color: rgba(102, 102, 90, 0.15);
+  padding: 7px;
+  border-radius: 9px 9px 9px 3.5px ;
+  width: 9rem;
+  font-size: 11px;
+  margin-left: 10px;
+  color: blueviolet;
+}
+.sec-para{
+  margin-top: 25px;
+  background-color: rgba(102, 102, 90, 0.15);
+  padding: 7px;
+  border-radius: 9px 9px 9px 5px ;
+  width: 9rem;
+  font-size: 9px;
+  margin-left: 10px;
+  color: blueviolet;
+  margin-top: 10px;
+}
+.dog-photo{
+  width: 45px;
+  margin-top: 25px;
+  border-radius: 10px;
+  
+}
+.dogs{
+  margin-left: 6rem;
+}
+.third-para{
+  margin-top: 25px;
+  background-color: white;
+  box-shadow: 1px 1px 1.5px 1.5px rgb(252, 252, 252);
+  padding: 8px;
+  border-radius: 4.5px;
+  width: 8.3rem;
+  height: 2rem;
+  font-size: 9px;
+  color: blueviolet;
+  margin-top: 10px;
+  margin-left: 6.5rem;
+  z-index: 7;
+}
+.fourth-para{
+  margin-top: 25px;
+  background-color: var(--BASICWHITE);
+  box-shadow: 1px 1px 1.5px 1.5px rgb(253, 253, 253);
+  padding-top: 4px;
+  border-radius: 4.5px;
+  width: 6rem;
+  height: 1.2rem;
+  font-size: 9px;
+  color: blueviolet;
+  margin-top: 10px;
+  margin-left: 8.8rem;
+  z-index: 7;
+  text-align: center;
+}
+.fifth-para{
+  margin-top: 25px;
+  background-color: rgba(102, 102, 90, 0.15);
+  box-shadow: 1px 1px 1.5px 1.5px rgb(233, 229, 229);
+  padding-top: 6px;
+  border-radius: 4.5px;
+  width: 8rem;
+  height: 2.7rem;
+  font-size: 9px;
+  color: blueviolet;
+  margin-top: 15px;
+  margin-left: 10px;
+  z-index: 7;
+  text-align: center;
+}
+.time-walk{
+  width: 10.9rem;
+  height: 2.2rem;
+  background-image: linear-gradient(hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+  margin-top: 16px;
+  color: rgb(247, 244, 244);
+  border-radius: 13px 10px 10px 5px;
+  padding-top: 2px;
+  margin-left: 10px;
+  display: flex;
+  position: relative;
+}
+
+.time{
+  margin-top: 7px;
+  margin-left: 1rem;
+  font-size: 10px;
+  color: rgb(218, 214, 214);
+}
+.amount{
+  font-size: 16px;
+  color: var(--BASICWHITE);
+  margin-left: 2.1rem;
+}
+.empty-input{
+  width: 15rem;
+  margin-left: 10px;
+  background-color: var(--BASICWHITE);
+  height: 2.7rem;
+  border-radius: 20px ;
+  margin-top: 1.7rem;
+}
+.message{
+  margin-left: 14px;
+  margin-top: 19px;
+  padding: 14px;
+  color: rgb(169, 161, 161);
+}
+
+.another-one{
+  margin-top: 15rem;
+  margin-left: 10rem;
+  width: 100%;
+  position: absolute;
+  left: 30rem;
+  z-index: 2;
+}
+.stay{
+  margin-top: 0.5rem;
+}
+
+.empry{
+  width: 12px;
+  height: 12px;
+  border: 1px rgb(170, 162, 162) solid;
+  border-radius: 6px;
+  margin-top: 11px;
+  margin-left: 5px;
+}
